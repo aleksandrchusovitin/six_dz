@@ -1,0 +1,856 @@
+/*--- Спецификация ---*/
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+* {
+    -moz-transition: all 0.3s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: 'Museo', Arial, sans-serif;
+    color: #000;
+
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+button,
+input,
+button:hover,
+button:active,
+button:focus,
+input:focus,
+input:active {
+    text-decoration: none;
+    outline: none;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 5.294rem;
+    letter-spacing: 0.46em;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    top: 40%;
+    margin-top: -70px;
+    left: 50%;
+    margin-left: -405px;
+    text-shadow: 0 0 46px rgba(0, 0, 0, 0.3);
+
+}
+
+h2 {
+    font-size: 2.471rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-size: 1.176rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.bold {
+    font-weight: 900;
+}
+
+.button {
+    width: 215px;
+    display: block;
+    font-size: 0.882rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button:active {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) inset;
+}
+
+/*--- HEADER ---*/
+
+header {
+    background-color: #1e6183;
+    background-image: url('../img/headernewbg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+
+
+}
+
+nav {
+    margin-top: 25px;
+}
+
+.nav__item {
+    float: left;
+    margin-right: 0.32%;
+}
+
+.nav__item a {
+    color: #fff;
+    font-size: 0.647rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 7px 6px;
+    letter-spacing: 0.08em;
+}
+
+.nav__item a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.nav__item a:link {
+    color: #fff;
+}
+
+.nav__item a:visited {
+    color: #fff;
+}
+
+.nav__item a:active {
+    color: #fff;
+}
+
+.tel {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    
+}
+
+.fa-phone {
+    position: absolute;
+    color: #23aae2;
+    border: 1px dashed #23aae2;
+    border-radius: 50%;
+    padding: 5px 7px;
+    top: 10px;
+    left: -40px;
+
+}
+
+.tel__number {
+    font-size: 0.941rem;
+    font-weight: 900;
+}
+
+.fa-bars {
+    visibility: hidden;
+    position: absolute;
+    top: 10px;
+    right: -60px;
+}
+
+
+.fa-bars:hover {
+    cursor: pointer;
+}
+
+
+
+/*--- Первая секция ---*/
+
+.h1_text {
+    display: block;
+    font-size: 3.000rem;
+    letter-spacing: 0.2em;
+    margin-top: 20px;
+
+}
+
+.arrow {
+    width: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    /*    margin-bottom: 95px;*/
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -23px;
+}
+
+.fa-angle-down {
+    color: #fff;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    padding: 8px 13px;
+    text-align: center;
+}
+
+.fa-angle-down:hover {
+    cursor: pointer;
+}
+
+/*--- Наши Преимущества ---*/
+
+#advantages {
+    background: #fff;
+    color: #000;
+    padding-top: 93px;
+    padding-bottom: 95px;
+    text-align: center;
+}
+
+.advantages__title {
+    margin-bottom: 68px;
+}
+
+.advantages__item {
+    background: url('../img/advatnages_bg.png') center center no-repeat;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    height: 360px;
+
+
+
+}
+
+.advantages__item_reliability {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 85px;
+}
+
+.advantages__item_authenticity {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.advantages__item_competence {
+    padding-left: 26px;
+    padding-right: 27px;
+}
+
+
+h3:after {
+    content: ' ';
+    display: block;
+    height: 1px;
+    width: 35px;
+    background: #c6c6c6;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+
+.advantages__description {
+    font-weight: 100;
+    color: #545454;
+    font-size: 1rem;
+}
+
+
+
+
+.advantages__img {
+    height: 95px;
+    margin-bottom: 20px;
+
+}
+
+.advantages__img_reliability {
+    background: url('../img/hands.png') no-repeat center center;
+}
+
+.advantages__img_authenticity {
+    background: url('../img/property.png') no-repeat center center;
+}
+
+.advantages__img_competence {
+    background: url('../img/conference.png') no-repeat center center;
+}
+
+/*--- RELOCATION ПЕРЕЕЗД ---*/
+
+#relocation {
+    text-align: center;
+    color: #fff;
+    padding-top: 93px;
+    padding-bottom: 95px;
+    background-color: #253948;
+    background-image: url('../img/relocation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-relocation__title {
+    margin-bottom: 20px;
+}
+
+.main-relocation q {
+    font-size: 1.059rem;
+    font-style: italic;
+
+}
+
+.main-relocation cite {
+    margin-top: 5px;
+    margin-bottom: 55px;
+    display: block;
+    font-size: 0.824rem;
+    font-style: normal;
+    letter-spacing: 0.12em;
+}
+
+
+.time-to-relocation {
+    position: relative;
+    padding: 45px 0;
+    border: 1px dashed #fff;
+
+}
+
+.time__text_first {
+    font-size: 1.118rem;
+    letter-spacing: 0.12em;
+}
+
+.time__text_second {
+    font-size: 1.353rem;
+    letter-spacing: 0.12em;
+}
+
+.fa-caret-down {
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    padding: 10px 13px;
+    left: 50%;
+    margin-left: -18px;
+}
+
+.fa-caret-down:hover {
+    cursor: pointer;
+}
+
+.time-down_first {
+    top: -16px;
+    background: #213646;
+}
+
+.time-down_second {
+    bottom: -20px;
+    background: #233d53;
+}
+
+.answer {
+    margin-top: 70px;
+}
+
+.answer__text_first {
+    font-size: 2.176rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 0;
+}
+
+.answer__text_second {
+    font-size: 1.059rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 40px;
+}
+
+.relocation-btn {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.relocation-btn:link {
+    color: #fff;
+}
+
+.relocation-btn:visited {
+    color: #fff;
+}
+
+.relocation-btn:active {
+    color: #fff;
+}
+
+.relocation-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: #213646;
+}
+
+/*--- PROPERTY Недвижимость и транспортные услуги ---*/
+
+#property {
+    text-align: center;
+    background-color: #fff;
+    background-image: url('../img/city.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-top: 150px;
+    padding-bottom: 95px;
+}
+
+.property__title {
+    margin-bottom: 155px;
+}
+
+.property__imgs {
+    position: relative;
+
+}
+
+.property__img {
+    display: block;
+    position: absolute;
+}
+
+.property__img_first {
+    z-index: 1;
+    top: -70px;
+    left: 25%;
+}
+
+.property__img_second {
+    z-index: 4;
+    left: 38%;
+    top: -120px;
+}
+
+.property__img_third {
+    z-index: 1;
+    left: 53%;
+    top: -60px;
+}
+
+.dream_first {
+    position: relative;
+    z-index: 3;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 75px;
+    padding-bottom: 60px;
+    background: url('../img/dreamfirst.png') no-repeat center center / cover;
+    }
+    
+    
+.hui {
+    position: relative;
+}
+
+.dream-first-block {
+    z-index: 3;
+}
+
+.dream__title {
+    font-size: 1.176rem;
+    margin-bottom: 10px;
+}
+
+.dream_first_text {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.dream_second_text {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.dream_icon {
+    position: relative;
+}
+
+.fa-life-ring {
+    position: absolute;
+    color: #fff;
+    background: #23aae2;
+    border-radius: 50%;
+    border: 1px solid #23aae2;
+    padding: 15px 15px;
+    top: -35px;
+    z-index: 4;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.dream_second {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: url('../img/dreamsecond.png') no-repeat center center / cover;
+
+
+}
+
+.property-btn {
+    color: #23aae2;
+    border: 2px solid #23aae2;
+    margin-top: 50px;
+}
+
+.property-btn:link {
+    color: #23aae2;
+}
+
+.property-btn:visited {
+    color: #23aae2;
+}
+
+.property-btn:active {
+    color: #23aae2;
+}
+
+.property-btn:hover {
+    background: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+/*--- REVIEWS ОТтзывы наших клиентов ---*/
+
+#reviews {
+    background: #fff;
+    padding: 85px 0;
+}
+
+.reviews__title {
+    margin-bottom: 75px;
+}
+
+
+
+.fa-chevron-left {
+    position: absolute;
+    color: #23aae2;
+    top: 95px;
+    left: -20%;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    color: #23aae2;
+    top: 95px;
+    right: -10%;
+}
+
+.fa-chevron-left:hover {
+    cursor: pointer;
+}
+
+.fa-chevron-right:hover {
+    cursor: pointer;
+}
+
+
+
+.review_img img {
+    z-index: 2;
+    position: absolute;
+    left: -11%;
+    top: 40px;
+}
+
+.reviews {
+    position: relative;
+}
+
+.main_review {
+    z-index: 1;
+    background: url('../img/reviewbg.png') no-repeat;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 125px;
+}
+
+.user_name {
+    float: left;
+    font-size: 0.941rem;
+    letter-spacing: 0.1em;
+    margin-right: 40px;
+}
+
+.user_link {
+    float: left;
+
+}
+
+.user_link a {
+    color: #23aae2;
+    font-size: 0.706rem;
+    border-bottom: 2px solid rgba(35, 170, 226, 0.3);
+}
+
+.user_city {
+    float: right;
+    font-size: 0.706rem;
+    letter-spacing: 0.12em;
+    color: #23aae2;
+}
+
+.review_icon {
+    font-family: 'Minion';
+}
+
+.review_text {
+    margin-top: 30px;
+    font-size: 0.824rem;
+    font-style: italic;
+    letter-spacing: 0.09em;
+}
+
+.line_circles {
+    width: 80px;
+    margin: 0 auto;
+    
+}
+
+.circle {
+    border: 1px dashed #23aae2;
+    padding: 8px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.circle:hover {
+    cursor: pointer;
+}
+
+.circle_second {
+    background: #23aae2;
+
+}
+
+.circle_third {
+    margin-right: 0;
+
+
+}
+
+/*--- FEEDBACK Обратная связь ---*/
+
+#feedback {
+    text-align: center;
+    color: #fff;
+    background-color: #11b2f5;
+    background-image: url('../img/consultingbgnew.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 85px;
+}
+
+.feedback__title {
+    margin-bottom: 25px;
+}
+
+.feedback__title_second {
+    display: block;
+
+}
+
+.feedback__description {
+    font-size: 1.235rem;
+    font-weight: 100;
+
+}
+
+.feedback__main {
+    margin-bottom: 105px;
+}
+
+.feedback__icon {
+    position: relative;
+}
+
+.feedback-down {
+    top: -75px;
+
+}
+
+.feedback__description span {
+    display: block;
+}
+
+
+.feedback_form input {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    background: #30c2ff;
+    border: 1px solid #fff;
+    color: #fff;
+
+
+}
+
+.feedback_form input::-webkit-input-placeholder {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 300;
+}
+
+.feedback_form input:-moz-placeholder {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 300;
+}
+
+.feedback_form input:focus {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+}
+
+.feedback_form button {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 0.882rem;
+}
+
+.button-form {
+    text-transform: uppercase;
+    font-size: 0.882rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+button:active {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) inset;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0.4);
+
+}
+
+/*--- FOOTER ---*/
+
+footer {
+    color: #fff;
+    background: #23aae2;
+    box-shadow: 0px 0px 131px rgba(0, 0, 0, 0.26)
+}
+
+
+.copyright {
+    font-size: 0.824rem;
+    margin-top: 30px;
+}
+
+.privacy {
+    font-size: 0.824rem;
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 2px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.privacy a {
+    color: #fff;
+}
+
+.privacy a:link {
+    color: #fff;
+}
+
+.privacy a:visited {
+    color: #fff;
+}
+
+.privacy a:active {
+    color: #fff;
+}
+
+.tel-footer {
+    margin: 20px 0;
+}
+
+.phone-footer {
+    color: #fff;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    padding: 5px 7px;
+}

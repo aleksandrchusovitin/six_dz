@@ -1,0 +1,180 @@
+@media screen and (max-width: 990px) {
+    .advantages__item_competence {
+        background: url('../img/advatnages768.png') center center no-repeat;
+        margin-top: 20px;
+    }
+    
+    h1 {
+        font-size: 3.765rem;
+        top: 50%;
+        margin-top: -69px;
+        left: 50%;
+        margin-left: -287px;
+    }
+    
+    .h1_text {
+        font-size: 2.588rem;
+    }
+    
+    .user_city {
+        float: left;
+        width: 130px;
+    }
+    
+    .fa-bars {
+        visibility: visible;
+    }
+    
+    .tel {
+        margin-right: 70px;
+    }
+    
+    .fa-chevron-left {
+       left: -15%;
+    }
+    
+    .fa-chevron-right {
+       right: -2%;
+    }
+    
+    .review_img img {
+       left: -5%;
+    }
+    
+    .advantages__description_competence {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .advantages__item_reliability {
+       padding-left: 0;
+       padding-right: 0;
+    }
+    
+    .advantages__item_authenticity {
+       padding-left: 0;
+       padding-right: 0;
+    }
+    
+    .advantages__description_reability {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    
+    .advantages__description_authenticity {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+
+    .dream_first {
+        padding-left: 40px;
+        padding-right: 30px;
+        
+    }
+    
+    .dream_second {
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    
+    .line_circles {
+       margin-top: 35px;
+
+
+}
+    
+    .main_review {
+    padding-left: 85px;
+        padding-right: 5px;
+    background: url('../img/reviewbg.png') no-repeat center center / cover;
+    }
+    
+    .review_img img {
+    left: -10%;
+    top: 65px;
+
+}
+    @media screen and (max-width: 768px) {
+         h1 {
+            font-size: 2.765rem;
+             margin-left: -200px;
+        }
+        
+        .h1_text {
+            font-size: 1.941rem;
+        }
+        
+        .advantages__item {
+            margin-bottom: 15px;
+            background: url('../img/advatnages768.png') no-repeat center center /cover ;
+        }
+        
+        .advantages__item_competence {
+            margin-top: 0;
+        }
+        
+           
+
+        .advantages__item_reliability {
+           padding-left: 10%;
+           padding-right: 10%;
+        }
+
+        .advantages__item_authenticity {
+
+            padding-left: 5%;
+            padding-right: 5%;
+
+}
+
+
+        .advantages__description {
+            width: 80%;
+            margin: 0 auto;
+
+        }
+
+        
+        .header-bars {
+            visibility: visible;
+        }
+    }
+    
+    
+    @media screen and (max-width: 450px) {
+        h1 {
+            font-size: 2.765rem;
+            margin-left: -150px;
+            letter-spacing: 0.15em;
+        }
+        
+        .h1_text {
+        font-size: 1.941rem;
+        letter-spacing: 0.12em;
+    }
+        
+        h2 {
+
+    font-size: 1.8rem;
+    letter-spacing: 0.01em;
+        
+    }
+        .copyright {
+
+    font-size: 0.5rem;
+    
+    }
+        .advantages__description {
+        line-height: 1.2em;
+    }
+        
+        .property__img_first {
+            left: 10%;
+        }   
+        .property__img_second {
+            left: 20%;
+        }   
+     

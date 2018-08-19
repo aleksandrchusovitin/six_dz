@@ -1,0 +1,98 @@
+/*--- Подключаем шрифт MuseoSansCyrl толщиной 100 нормальный и наклонный---*/
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansCyrl100.eot');
+    src: url('../fonts/MuseoSansCyrl100.woff2') format('woff2'),
+    url('../fonts/MuseoSansCyrl100.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl100.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl100.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl100.svg#svgFontName') format('svg');
+
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansCyrl100Italic.eot');
+    src: url('../fonts/MuseoSansCyrl100Italic.woff2') format('woff2'),
+    url('../fonts/MuseoSansCyrl100Italic.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl100Italic.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl100Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl100Italic.svg#svgFontName') format('svg');
+
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*--- Подключаем шрифт MuseoSansCyrl толщиной 300 нормальный и наклонный---*/
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansCyrl300.eot');
+    src: url('../fonts/MuseoSansCyrl300.woff2') format('woff2'),
+    url('../fonts/MuseoSansCyrl300.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl300.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl300.svg#svgFontName') format('svg');
+
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansCyrl300Italic.eot');
+    src: url('../fonts/MuseoSansCyrl300Italic.woff2') format('woff2'),
+    url('../fonts/MuseoSansCyrl300Italic.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl300Italic.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl300Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl300Italic.svg#svgFontName') format('svg');
+
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*--- Подключаем шрифт MuseoSansCyrl толщиной 900 нормальный и наклонный---*/
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansCyrl900.eot');
+    src: url('../fonts/MuseoSansCyrl900.woff2') format('woff2'),
+    url('../fonts/MuseoSansCyrl900.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl900.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl900.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl900.svg#svgFontName') format('svg');
+
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansCyrl900Italic.eot');
+    src: url('../fonts/MuseoSansCyrl900Italic.woff2') format('woff2'),
+    url('../fonts/MuseoSansCyrl900Italic.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl900Italic.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl900Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl900Italic.svg#svgFontName') format('svg');
+
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*--- Подключаем Minion Pro ---*/
+
+@font-face {
+    font-family: 'Minion';
+    src: url('../fonts/MinionPro-Regular.eot');
+    src: url('../fonts/MinionPro-Regular.woff2') format('woff2'),
+    url('../fonts/MinionPro-Regular.woff') format('woff'),
+    url('../fonts/MinionPro-Regular.ttf') format('truetype'),
+    url('../fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MinionPro-Regular.svg#svgFontName') format('svg');
+
+        font-weight: normal;
+        font-style: normal;
+}
